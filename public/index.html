@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="El Khairi Academy — Ahlinya Bahasa Arab">
+    <title>El Khairi Academy — Belajar Bahasa Arab</title>
+
+    <!-- Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&family=Plus+Jakarta+Sans:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap"
+        rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!--icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+    <!-- =========================================
+       HEADER / NAVBAR
+  ========================================= -->
+    <header class="navbar">
+        <a href="#" class="brand" aria-label="El Khairi Academy Home">
+            <div class="brand__logo">
+                <img src="static/logo.svg" alt="El Khairi Academy Logo">
+            </div>
+        </a>
+
+        <nav class="nav-links" id="main-nav" aria-label="Navigasi Utama">
+            <a href="#program">Program</a>
+            <a href="#metode">Metode</a>
+            <a href="#tentang">Tentang Kami</a>
+            <a href="#faq">FAQ</a>
+            <a href="#daftar" class="nav-cta">Mulai Belajar</a>
+        </nav>
+
+        <button class="menu-toggle" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="main-nav">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <main>
+        <!-- =========================================
+         HERO SECTION
+    ========================================= -->
+        <section class="hero" id="beranda">
+            <!-- Grid Overlay Background -->
+            <div class="hero__grid-bg" aria-hidden="true"></div>
+
+            <!-- Floating Vocab Card -->
+            <div class="vocab-card" aria-hidden="true">
+                <div class="vocab-card__icon">
+                    <img src="static/mufroda.svg" alt="Mufroda Icon">
+                </div>
+            </div>
+
+            <!-- Floating ijtima Card -->
+            <div class="listen-card" aria-hidden="true">
+                <div class="listen-card__icon">
+                    <img src="static/mendengar.png" alt="Mufroda Icon">
+                </div>
+            </div>
+
+            <!-- Hero Main Content -->
+            <div class="hero__content" id="mulai">
+                <div class="eyebrow">
+                    <span>✦</span> Kursus Bahasa Arab Terarah &amp; Berkelanjutan
+                </div>
+
+                <h1 class="hero__title">
+                    Belajar Bahasa Arab,
+                    <em>Pelan-Pelan Sampai Bisa</em>
+                </h1>
+
+                <div class="hero__actions">
+                    <a href="#program" class="btn btn--primary">Pilih Program Belajar</a>
+                    <!-- <a href="#metode" class="btn btn--light">Lihat Kurikulum <span>→</span></a> -->
+                </div>
+            </div>
+
+            <!-- Floating Reader Illustration -->
+            <div class="talking-card" aria-hidden="true">
+                <div class="talking-card__icon">
+                    <img src="static/ngomong.png" alt="Qiroah Icon">
+                </div>
+            </div>
+
+            <!-- Floating Reader Illustration -->
+            <div class="reader-card" aria-hidden="true">
+                <div class="reader-card__icon">
+                    <img src="static/qiroah.svg" alt="Qiroah Icon">
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================================
+         WHY EL KHAIRI
+    ========================================= -->
+        <section class="why-section" id="keunggulan">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Kenapa Mulai Bersama El Khairi?</h2>
+                    <p>Kami percaya, belajar bahasa baru seharusnya menyenangkan dan relevan dengan hidupmu.</p>
+                </div>
+
+                <!-- Cards Grid -->
+                <div class="why-grid">
+                    <article class="feature-card ">
+                        <h3 class="feature-card__title ">Ramah &amp; Tanpa Syarat</h3>
+                        <p class="feature-card__desc">Bebas masuk dari level mana saja. Belum bisa baca aksara? Kita
+                            bantu dari
+                            langkah pertama.</p>
+                        <div class="feature-card__media">
+                            <img src="static/friendly.svg" alt="">
+                        </div>
+                    </article>
+
+                    <article class="feature-card">
+
+                        <h3 class="feature-card__title">Terarah &amp; Bertahap</h3>
+
+                        <p class="feature-card__desc">Murni berorientasi pada kemampuan nyata, bukan sekadar hafalan
+                            teori yang
+                            bikin jenuh.</p>
+                        <div class="feature-card__media">
+                            <img src="static/steps.svg" alt="">
+                        </div>
+
+                    </article>
+
+                    <article class="feature-card">
+                        <h3 class="feature-card__title">Praktis untuk Kebutuhanmu</h3>
+                        <p class="feature-card__desc">Siap pakai untuk percakapan harian, persiapan studi Timur Tengah,
+                            hingga
+                            memahami kitab.</p>
+                        <div class="feature-card__media">
+                            <img src="static/thumbup.svg" alt="">
+                        </div>
+                    </article>
+
+                    <article class="feature-card">
+                        <h3 class="feature-card__title">Komunitas Berkelanjutan</h3>
+                        <p class="feature-card__desc">Lingkungan belajar yang konsisten, saling mendukung, dan tanpa
+                            menghakimi.</p>
+                        <div class="feature-card__media">
+                            <img src="static/comuniti.png" alt="">
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Statistics -->
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <strong>300+</strong>
+                        <span>Murid</span>
+                    </div>
+                    <div class="stat-item">
+                        <strong>1</strong>
+                        <span>Partner</span>
+                    </div>
+                    <div class="stat-item">
+                        <strong>300+</strong>
+                        <span>Video</span>
+                    </div>
+                    <div class="stat-item">
+                        <strong>250+</strong>
+                        <span>Jam Belajar</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================================
+         METHOD SECTION
+    ========================================= -->
+        <section class="method-section" id="metode">
+            <div class="container">
+                <div class="section-heading">
+                    <h2> 4 Target Belajar di El Khairi</h2>
+                    <p>Cara alami otak menyerap bahasa baru tanpa beban berlebihan.</p>
+                </div>
+
+                <div class="method-grid">
+                    <!-- Illustration Container -->
+                    <div class="method-image">
+                        <img src="static/ngajar.png" alt="Metode Pembelajaran El Khairi">
+                        <div class="method-image__placeholder">Masukkan Gambar</div>
+                    </div>
+
+                    <!-- Accordion -->
+                    <div class="accordion">
+                        <div class="accordion__item accordion__item--active">
+                            <button class="accordion__header" type="button">
+                                <span class="accordion__title">Maharah Kalam</span>
+                                <span class="accordion__icon" aria-hidden="true">+</span>
+                            </button>
+                            <div class="accordion__content">
+                                <p>Menyampaikan bahasa Arab secara lisan</p>
+                            </div>
+                        </div>
+
+                        <div class="accordion__item">
+                            <button class="accordion__header" type="button">
+                                <span class="accordion__title">Maharah Istima'</span>
+                                <span class="accordion__icon" aria-hidden="true">+</span>
+                            </button>
+                            <div class="accordion__content">
+                                <p>Memahami bahasa Arab melalui pendengaran.</p>
+                            </div>
+                        </div>
+
+                        <div class="accordion__item">
+                            <button class="accordion__header" type="button">
+                                <span class="accordion__title">Maharah Qiro'ah</span>
+                                <span class="accordion__icon" aria-hidden="true">+</span>
+                            </button>
+                            <div class="accordion__content">
+                                <p>Memahami bahasa Arab melalui bacaan.</p>
+                            </div>
+                        </div>
+
+                        <div class="accordion__item">
+                            <button class="accordion__header" type="button">
+                                <span class="accordion__title">Maharah Kitabah</span>
+                                <span class="accordion__icon" aria-hidden="true">+</span>
+                            </button>
+                            <div class="accordion__content">
+                                <p>Menyampaikan bahasa Arab dalam bentuk tulisan.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================================
+         ACTIVITY SECTION
+    ========================================= -->
+
+        <section class="activity-section" id="activity">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Belajar, Berinteraksi, dan Bertumbuh Bersama</h2>
+                    <p>Di El Khairi, setiap pertemuan bukan sekadar menyelesaikan materi. Kami membangun kebiasaan
+                        belajar,
+                        melatih keberanian berbicara, dan menciptakan ruang untuk bertumbuh bersama.</p>
+                </div>
+            </div>
+
+            <!--image-->
+
+
+            <div class="btn-warp container">
+                <button class="carousel-arrow carousel-prev" aria-label="Kegiatan sebelumnya">←</button>
+                <button class="carousel-arrow carousel-next" aria-label="Kegiatan berikutnya">→</button>
+            </div>
+
+            <div class="activity-carousel-wrapper">
+
+                <div class="activity-carousel" id="activityCarousel">
+                    <article class="activity-card">
+                        <div class="activity-image">
+                            <img src="Static/kegiatan-1.jpg" alt="Kegiatan belajar bahasa Arab El Khairi">
+                        </div>
+                        <div class="activity-info">
+                            <div>
+                                <h3>Belajar Bersama</h3>
+                                <p>Suasana kelas yang hangat dan interaktif, tempat setiap peserta belajar sesuai
+                                    tahapnya.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="activity-card">
+                        <div class="activity-image">
+                            <img src="Static/kegiatan-2.jpeg" alt="Latihan hiwar bahasa Arab">
+                        </div>
+                        <div class="activity-info">
+                            <div>
+                                <h3>Latihan Hiwar</h3>
+                                <p>Berlatih berbicara bahasa Arab secara langsung agar ilmu yang dipelajari tidak
+                                    berhenti di teori.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="activity-card">
+                        <div class="activity-image">
+                            <img src="Static/kegiatan-3.jpeg" alt="Diskusi pembelajaran bahasa Arab">
+                        </div>
+                        <div class="activity-info">
+                            <div>
+                                <h3>Tanya &amp; Diskusi</h3>
+                                <p>Ruang untuk bertanya, berdiskusi, dan memahami bahasa Arab dengan lebih sederhana.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="activity-card">
+                        <div class="activity-image">
+                            <img src="Static/kegiatan-4.jpeg" alt="Praktik bahasa Arab El Khairi">
+                        </div>
+                        <div class="activity-info">
+                            <div>
+                                <h3>Praktik Langsung</h3>
+                                <p>Dari memahami materi menuju keberanian menggunakannya dalam percakapan.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="activity-card">
+                        <div class="activity-image">
+                            <img src="Static/kegiatan-5.jpeg" alt="Kegiatan kelas El Khairi">
+                        </div>
+                        <div class="activity-info">
+                            <div>
+                                <h3>Perjalanan Belajar</h3>
+                                <p>Setiap pertemuan adalah satu langkah kecil menuju kemampuan yang lebih baik.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="activity-card">
+                        <div class="activity-image">
+                            <img src="Static/kegiatan-6.jpeg" alt="Komunitas belajar El Khairi">
+                        </div>
+                        <div class="activity-info">
+                            <div>
+                                <h3>Tumbuh Bersama</h3>
+                                <p>Belajar bahasa terasa lebih menyenangkan ketika dilakukan bersama komunitas.</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="carousel-dots" id="activityDots"></div>
+        </section>
+
+        <!-- Modal Full View Gambar -->
+        <div id="imageModal" class="image-modal">
+            <span class="modal-close">&times;</span>
+            <img class="modal-content" id="fullImage" alt="Full View">
+            <div id="modalCaption" class="modal-caption"></div>
+        </div>
+
+        <!-- =========================================
+         ABOUT SECTION
+    ========================================= -->
+        <section class="about-section" id="tentang">
+            <div class="container">
+                <div class="about-heading">
+                    <h2>TENTANG EL KHAIRI ACADEMY</h2>
+                    <p>
+                        El Khairi Academy lahir dari sebuah niat sederhana: ingin membuat bahasa Al-Qur'an dan bahasa
+                        Arab terasa
+                        dekat,
+                        ramah, dan bisa dipelajari oleh siapa saja. Kami percaya bahwa bahasa Arab bukan milik kelompok
+                        tertentu
+                        saja.
+                        Baik kamu seorang pelajar yang sedang kuliah di Timur Tengah, mahasiswa, pekerja, atau siapa pun
+                        yang ingin
+                        memahami
+                        bahasa Al-Qur'an dengan lebih dekat, kami hadir untuk menemanimu.
+                    </p>
+                </div>
+
+                <div class="about-content">
+                    <div class="about-founder">
+                        <div class="about-founder__photo">
+                            <img src="static/founder.svg" alt="Khairun, M.Ag - Founder El Khairi Academy">
+                        </div>
+                    </div>
+
+                    <div class="about-points">
+                        <div class="about-card">
+                            <h3>Kualitas</h3>
+                            <p>Pendidikan yang terus dijaga dan dikembangkan.</p>
+                        </div>
+                        <div class="about-card">
+                            <h3>Pelayanan</h3>
+                            <p>Ramah, responsif, dan penuh perhatian.</p>
+                        </div>
+                        <div class="about-card">
+                            <h3>Keteladanan</h3>
+                            <p>Belajar ilmu, akhlak, sikap, dan tanggung jawab.</p>
+                        </div>
+                        <div class="about-card">
+                            <h3>Konsistensi</h3>
+                            <p>Terus bertumbuh dan berkembang.</p>
+                        </div>
+                        <div class="about-card">
+                            <h3>Amanah</h3>
+                            <p>Menjaga kepercayaan dengan sebaik-baiknya.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================================
+         PRICING SECTION
+    ========================================= -->
+        <section class="pricing-section" id="program">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Pilihan Program Belajar</h2>
+                    <p>Pilih paket program yang paling sesuai dengan target dan ritme belajarmu.</p>
+                </div>
+
+                <div class="pricing-grid">
+                    <!-- Regular -->
+                    <article class="pricing-card">
+                        <div class="pricing-card__label">Hemat Pilihan Awal</div>
+                        <h3 class="pricing-card__title">Kelas Hiwar</h3>
+                        <p class="pricing-card__desc">Cocok untuk kamu yang baru mau mencoba &amp; membangun kebiasaan
+                            belajar.</p>
+
+                        <div class="pricing-card__price">
+                            <strong>Rp200.000</strong>
+                            <span>/bulan</span>
+                        </div>
+
+                        <a href="#daftar" class="btn-outline select-package-btn"
+                            data-program="Kelas Hiwar — Rp200.000">Pilih Paket</a>
+                        <div class="pricing-card__divider"></div>
+
+                        <ul class="pricing-card__features">
+                            <li>16× Pertemuan (4 minggu intensif)</li>
+                            <li>Kelas Online via Zoom</li>
+                            <li>Materi PDF &amp; Rekaman Kelas</li>
+                            <li>Grup WhatsApp &amp; Bimbingan Langsung</li>
+                            <li>Akses Diskusi &amp; Komunitas</li>
+                            <li>Sertifikat Kelulusan</li>
+                        </ul>
+                    </article>
+
+                    <!-- Progressive (Popular) -->
+                    <article class="pricing-card pricing-card--popular">
+                        <div class="pricing-card__label">Paling Populer</div>
+                        <h3 class="pricing-card__title">Kelas Mutawassith</h3>
+                        <p class="pricing-card__desc">Pilihan pas untuk mulai lancar percakapan (Hiwar) dan kosa kata.
+                        </p>
+
+                        <div class="pricing-card__price">
+                            <strong>Rp550.000</strong>
+                            <span>/3 bulan</span>
+                        </div>
+
+                        <a href="#daftar" class="btn-outline select-package-btn"
+                            data-program="Kelas Mutawassith — Rp550.000">Pilih Paket</a>
+                        <div class="pricing-card__divider"></div>
+
+                        <ul class="pricing-card__features">
+                            <li>48× Pertemuan (12 minggu terarah)</li>
+                            <li>Kelas Online via Zoom</li>
+                            <li>Materi PDF &amp; Rekaman Kelas</li>
+                            <li>Grup WhatsApp &amp; Bimbingan Langsung</li>
+                            <li>Akses Diskusi &amp; Komunitas</li>
+                            <li>Sertifikat Kelulusan</li>
+                        </ul>
+                    </article>
+
+                    <!-- Mastery -->
+                    <article class="pricing-card">
+                        <div class="pricing-card__label">Hemat Rp350.000</div>
+                        <h3 class="pricing-card__title">Kelas Mahir</h3>
+                        <p class="pricing-card__desc">Cocok untuk kamu yang ingin berkomitmen penuh menguasai materi
+                            secara
+                            komprehensif.</p>
+
+                        <div class="pricing-card__price">
+                            <strong>Rp850.000</strong>
+                            <span>/6 bulan</span>
+                        </div>
+
+                        <a href="#daftar" class="btn-outline select-package-btn"
+                            data-program="Kelas Mahir — Rp850.000">Pilih Paket</a>
+                        <div class="pricing-card__divider"></div>
+
+                        <ul class="pricing-card__features">
+                            <li>96× Pertemuan (24 minggu berkelanjutan)</li>
+                            <li>Kelas Online via Zoom</li>
+                            <li>Materi PDF &amp; Rekaman Kelas</li>
+                            <li>Grup WhatsApp &amp; Bimbingan Langsung</li>
+                            <li>Akses Diskusi &amp; Komunitas</li>
+                            <li>Sertifikat Kelulusan</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================================
+         FAQ SECTION
+    ========================================= -->
+        <section class="faq-section" id="faq">
+            <div class="container faq-grid">
+                <div class="faq-info">
+                    <span class="eyebrow eyebrow--dark">PERTANYAAN UMUM</span>
+                    <h2>Masih ada yang ingin <em>ditanyakan?</em></h2>
+                    <p>Wajar kalau masih punya pertanyaan. Kami siap membantu sebelum kamu memulai.</p>
+                </div>
+
+                <div class="faq-list">
+                    <details open>
+                        <summary>Siapa saja yang boleh ikut?</summary>
+                        <p>El Khairi Academy terbuka untuk siswa SD, SMP, SMA, mahasiswa, dan masyarakat umum.</p>
+                    </details>
+
+                    <details>
+                        <summary>Apakah pemula boleh ikut?</summary>
+                        <p>Boleh. Program dirancang bertahap sehingga peserta dapat memulai dari kemampuan yang
+                            dimiliki.</p>
+                    </details>
+
+                    <details>
+                        <summary>Apakah pembelajarannya online?</summary>
+                        <p>Ya. Pembelajaran dilakukan secara online dan detail jadwal akan disampaikan saat proses
+                            pendaftaran.</p>
+                    </details>
+
+                    <details>
+                        <summary>Apa yang dipelajari?</summary>
+                        <p>Materi mencakup Mufradat, Hiwar, Qira'ah, Ta'bir, dan latihan menyusun kalimat.</p>
+                    </details>
+
+                    <details>
+                        <summary>Bagaimana cara mendaftar?</summary>
+                        <p>Klik tombol mulai belajar, isi data pendaftaran, lalu tim El Khairi Academy akan menghubungi
+                            kamu untuk
+                            langkah berikutnya.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================================
+         CTA / REGISTRATION
+    ========================================= -->
+        <section class="cta-section" id="daftar">
+            <div class="container cta-inner">
+                <h2>Siap belajar bahasa Arab<br><em>bersama kami?</em></h2>
+                <p>Tidak perlu menunggu sempurna untuk memulai. Satu langkah kecil hari ini bisa menjadi awal perjalanan
+                    yang panjang.</p>
+
+                <form id="registrationForm" class="registration-form">
+                    <input type="text" id="formName" name="name" placeholder="Nama lengkap" required>
+                    <input type="tel" id="formPhone" name="phone" placeholder="Nomor WhatsApp (misal: 08123456789)"
+                        required>
+                    <input type="number" id="age" name="age" placeholder="Contoh: 25" min="1" max="120" required>
+                    <input type="text" id="location" name="location" placeholder="Kota / Kabupaten" required>
+
+                    <div class="custom-select" id="customSelect">
+                        <div class="select-trigger">
+                            <span>Pilih program</span>
+                            <img src="static/Chevron-down.svg" alt="" class="arrow">
+                        </div>
+                        <div class="select-options">
+                            <div class="option" value="Kelas Hiwar — Rp200.000">Kelas Hiwar — Rp200.000/bln</div>
+                            <div class="option" value="Kelas Mutawassith — Rp550.000">Kelas Mutawassith — Rp550.000/3
+                                bln</div>
+                            <div class="option" value="Kelas Mahir — Rp850.000">Kelas Mahir — Rp850.000/6 bln</div>
+                        </div>
+                        <!-- Hidden input untuk menyimpan nilai yang dipilih -->
+                        <input type="hidden" name="program" id="selectedProgram">
+                    </div>
+
+                    <button type="submit" id="submitBtn" class="btn btn-light">
+                        <span>Mulai Pendaftaran →</span>
+                    </button>
+                </form>
+
+                <div id="formMessage" class="form-message"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- =========================================
+       FOOTER
+  ========================================= -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand-col">
+                <a href="#beranda" class="brand brand--footer">
+                    <img src="static/logo.svg" alt="El Khairi Academy Logo">
+                </a>
+                <p>Ahlinya Bahasa Arab.<br>Belajar bersama, bertumbuh bersama.</p>
+            </div>
+
+            <div class="footer-nav-col">
+                <div>
+                    <h4>Mulai Perjalananmu</h4>
+                    <p>Setiap keahlian besar selalu dimulai dari satu langkah kecil yang berani. Jangan tunggu waktu
+                        yang
+                        sempurna untuk mulai memahami bahasa Al-Qur'an dan percakapan Arab; mulailah hari ini,
+                        pelan-pelan,
+                        dan mari tumbuh bersama El Khairi Academy</p>
+                </div>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/share/1BvNJq4Gob/" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@elkhairiacademy" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-youtube"></i>
+                    </a>
+                    <a href="https://www.instagram.com/elkhairiacademy?stkn=ZDNlZDc0MzIxNw==" target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@el.khairi.academy?is_from_webapp=1&sender_device=pc"
+                        target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-tiktok"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <span>© 2026 El Khairi Academy. All rights reserved.</span>
+            <span>Ahlinya Bahasa Arab</span>
+        </div>
+    </footer>
+
+    <!-- Basic Interactivity JS -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
